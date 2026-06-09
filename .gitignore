@@ -10,6 +10,9 @@ __pycache__/
 logs/
 *.log
 
+# Generated dashboard
+dashboard.html
+
 # Research output CSVs (keep code, not large data dumps)
 data/backtest_trades.csv
 data/backtest_equity_curve.csv
