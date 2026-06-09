@@ -106,7 +106,9 @@ def build_plan():
         df = bars.get(sym)
         reason = strategy.dip_should_exit(df, tracker.get(sym, today)) if df is not None else "no_data"
         if reason:
-            exits.append({"symbol": sym, "reason": reason, "qty": held_dips[sym]["qty"]})
+            hp = held_dips[sym]
+            exits.append({"symbol": sym, "reason": reason, "qty": hp["qty"],
+                          "avg_entry": hp["avg_entry"], "market_value": hp["market_value"]})
     exit_syms = {e["symbol"] for e in exits}
     keep_dips = [s for s in held_dips if s not in exit_syms]
 
@@ -162,9 +164,12 @@ def execute(p, tracker):
 
     # PHASE 1 — SELLS
     for e in p["exits"]:
+        cost = e["qty"] * e["avg_entry"]
+        pnl  = e["market_value"] - cost
+        pnl_pct = (e["market_value"] / cost - 1) * 100 if cost > 0 else 0
         broker.close_position(e["symbol"])
         tracker.pop(e["symbol"], None)
-        rec("EXIT", e["symbol"], "", e["reason"])
+        rec("EXIT", e["symbol"], round(pnl, 2), f"{e['reason']} ({pnl_pct:+.1f}%)")
     if p["wrong_parking"]:
         broker.close_position(p["wrong_parking"])
         rec("CLOSE_PARK", p["wrong_parking"], "")
