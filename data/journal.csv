@@ -1,0 +1,6 @@
+timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
+2026-06-09T14:23:57,safe,ENTRY,HON,10000.0,rsi2_dip,1.43,100000.0,True
+2026-06-09T14:23:57,safe,ENTRY,PANW,10000.0,rsi2_dip,8.05,100000.0,True
+2026-06-09T14:23:57,safe,ENTRY,AAPL,10000.0,rsi2_dip,8.82,100000.0,True
+2026-06-09T14:23:57,safe,ADD_PARK,SPY,70000.0,,,100000.0,True
+2026-06-09T14:23:57,safe,SNAPSHOT,,100000.0,,,100000.0,True

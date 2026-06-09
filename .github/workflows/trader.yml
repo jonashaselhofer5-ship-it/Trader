@@ -1,0 +1,42 @@
+name: Daily Trader
+
+on:
+  schedule:
+    # 21:30 UTC daily = ~17:30 ET (summer) / 16:30 ET (winter) — just after US close.
+    # Mon-Fri only (markets closed weekends).
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:   # allows manual run from the GitHub UI
+
+permissions:
+  contents: write       # needed to commit updated journal/positions back
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trader
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_API_SECRET: ${{ secrets.ALPACA_API_SECRET }}
+          PAPER_TRADING: "true"
+          STRATEGY: "safe"
+        run: python runner.py
+
+      - name: Commit updated journal & positions
+        run: |
+          git config user.name  "trader-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/positions.json data/journal.csv || true
+          git commit -m "Daily run $(date -u +%Y-%m-%d)" || echo "no changes"
+          git push || echo "nothing to push"
