@@ -6,3 +6,5 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-06-09T14:23:57,safe,SNAPSHOT,,100000.0,,,100000.0,True
 2026-06-09T15:25:13,safe,ADD_PARK,SPY,52.46,,,98722.69,True
 2026-06-09T15:25:13,safe,SNAPSHOT,,98722.69,,,98722.69,True
+2026-06-10T11:27:08,safe,TRIM_PARK,SPY,-62.75,,,98011.54,True
+2026-06-10T11:27:08,safe,SNAPSHOT,,98011.54,,,98011.54,True
