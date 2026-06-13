@@ -13,3 +13,6 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-06-12T11:51:50,safe,EXIT,UPS,439.42,sma5_exit (+4.5%),,100804.99,True
 2026-06-12T11:51:50,safe,ADD_PARK,SPY,60800.77,,,100804.99,True
 2026-06-12T11:51:50,safe,SNAPSHOT,,100804.99,,,100804.99,True
+2026-06-13T08:41:09,safe,EXIT,QCOM,880.75,sma5_exit (+9.0%),,100726.5,True
+2026-06-13T08:41:09,safe,ADD_PARK,SPY,9835.78,,,100726.5,True
+2026-06-13T08:41:09,safe,SNAPSHOT,,100726.5,,,100726.5,True
