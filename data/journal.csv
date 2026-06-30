@@ -52,3 +52,8 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-06-27T08:07:44,safe,EXIT,SLB,-1139.89,max_hold_days (-11.1%),,100181.54,True
 2026-06-27T08:07:44,safe,ADD_PARK,SPY,9972.73,,,100181.54,True
 2026-06-27T08:07:44,safe,SNAPSHOT,,100181.54,,,100181.54,True
+2026-06-30T08:49:32,safe,EXIT,CVX,-386.04,max_hold_days (-3.8%),,100968.58,True
+2026-06-30T08:49:32,safe,EXIT,GOOGL,464.26,sma5_exit (+4.6%),,100968.58,True
+2026-06-30T08:49:32,safe,ENTRY,MS,10096.86,rsi2_dip,7.69,100968.58,True
+2026-06-30T08:49:32,safe,ADD_PARK,SPY,9864.19,,,100968.58,True
+2026-06-30T08:49:32,safe,SNAPSHOT,,100968.58,,,100968.58,True
