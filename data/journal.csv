@@ -201,3 +201,7 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-08-07T01:03:10,safe,EXIT,XOM,31.55,sma5_exit (+0.3%),,114540.97,True
 2026-08-07T01:03:10,safe,ADD_PARK,SPY,23002.67,,,114540.97,True
 2026-08-07T01:03:10,safe,SNAPSHOT,,114540.97,,,114540.97,True
+2026-08-07T22:03:06,safe,EXIT,ABBV,-373.61,sma5_exit (-3.4%),,114788.93,True
+2026-08-07T22:03:06,safe,EXIT,COP,0.06,sma5_exit (+0.0%),,114788.93,True
+2026-08-07T22:03:06,safe,ADD_PARK,SPY,22810.39,,,114788.93,True
+2026-08-07T22:03:06,safe,SNAPSHOT,,114788.93,,,114788.93,True
