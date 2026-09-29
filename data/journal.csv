@@ -343,3 +343,9 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-09-25T23:59:22,safe,EXIT,MS,-555.48,max_hold_days (-5.0%),,109896.02,True
 2026-09-25T23:59:22,safe,ADD_PARK,SPY,43889.98,,,109896.02,True
 2026-09-25T23:59:22,safe,SNAPSHOT,,109896.02,,,109896.02,True
+2026-09-29T01:05:45,safe,EXIT,CRM,-584.4,max_hold_days (-5.3%),,108470.95,True
+2026-09-29T01:05:45,safe,EXIT,SCHW,-650.17,max_hold_days (-5.9%),,108470.95,True
+2026-09-29T01:05:45,safe,EXIT,WFC,-761.76,max_hold_days (-6.9%),,108470.95,True
+2026-09-29T01:05:45,safe,ENTRY,MS,10847.09,rsi2_dip,9.41,108470.95,True
+2026-09-29T01:05:45,safe,ADD_PARK,SPY,21234.05,,,108470.95,True
+2026-09-29T01:05:45,safe,SNAPSHOT,,108470.95,,,108470.95,True
