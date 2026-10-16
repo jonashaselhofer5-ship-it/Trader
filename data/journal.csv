@@ -408,3 +408,4 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-10-15T23:44:16,safe,ENTRY,FTNT,10653.44,rsi2_dip,6.35,106534.36,True
 2026-10-15T23:44:16,safe,ENTRY,PANW,10653.44,rsi2_dip,6.63,106534.36,True
 2026-10-15T23:44:16,safe,SNAPSHOT,,106534.36,,,106534.36,True
+2026-10-16T23:43:35,safe,SNAPSHOT,,101658.16,,,101658.16,True
