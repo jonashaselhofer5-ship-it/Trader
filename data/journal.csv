@@ -426,3 +426,7 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-10-23T00:02:42,safe,EXIT,TXN,-112.05,sma5_exit (-1.0%),,98656.51,True
 2026-10-23T00:02:42,safe,ADD_PARK,SPY,59193.85,,,98656.51,True
 2026-10-23T00:02:42,safe,SNAPSHOT,,98656.51,,,98656.51,True
+2026-10-23T23:53:44,safe,EXIT,PANW,210.34,sma5_exit (+2.0%),,99763.3,True
+2026-10-23T23:53:44,safe,ENTRY,AMZN,9976.33,rsi2_dip,8.68,99763.3,True
+2026-10-23T23:53:44,safe,ADD_PARK,SPY,613.95,,,99763.3,True
+2026-10-23T23:53:44,safe,SNAPSHOT,,99763.3,,,99763.3,True
