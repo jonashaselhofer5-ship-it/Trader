@@ -468,3 +468,8 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-11-06T01:40:30,safe,ENTRY,CVX,9383.52,rsi2_dip,5.76,93835.17,True
 2026-11-06T01:40:30,safe,ENTRY,LMT,9383.52,rsi2_dip,6.0,93835.17,True
 2026-11-06T01:40:30,safe,SNAPSHOT,,93835.17,,,93835.17,True
+2026-11-10T03:40:17,safe,EXIT,AMD,486.95,sma5_exit (+5.0%),,96125.0,True
+2026-11-10T03:40:17,safe,EXIT,CRM,-696.18,max_hold_days (-7.1%),,96125.0,True
+2026-11-10T03:40:17,safe,EXIT,FTNT,-872.01,max_hold_days (-8.8%),,96125.0,True
+2026-11-10T03:40:17,safe,ADD_PARK,SPY,27603.19,,,96125.0,True
+2026-11-10T03:40:17,safe,SNAPSHOT,,96125.0,,,96125.0,True
