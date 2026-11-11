@@ -473,3 +473,5 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-11-10T03:40:17,safe,EXIT,FTNT,-872.01,max_hold_days (-8.8%),,96125.0,True
 2026-11-10T03:40:17,safe,ADD_PARK,SPY,27603.19,,,96125.0,True
 2026-11-10T03:40:17,safe,SNAPSHOT,,96125.0,,,96125.0,True
+2026-11-11T01:20:17,safe,TRIM_PARK,SPY,-77.71,,,96410.68,True
+2026-11-11T01:20:17,safe,SNAPSHOT,,96410.68,,,96410.68,True
