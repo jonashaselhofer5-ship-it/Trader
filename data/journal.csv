@@ -493,3 +493,5 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-11-20T02:27:05,safe,ENTRY,ABBV,9502.38,rsi2_dip,1.91,95023.82,True
 2026-11-20T02:27:05,safe,ENTRY,HD,9502.38,rsi2_dip,2.01,95023.82,True
 2026-11-20T02:27:05,safe,SNAPSHOT,,95023.82,,,95023.82,True
+2026-11-21T02:37:04,safe,CLOSE_PARK,SPY,,,,93449.07,False
+2026-11-21T02:37:04,safe,SNAPSHOT,,93449.07,,,93449.07,False
