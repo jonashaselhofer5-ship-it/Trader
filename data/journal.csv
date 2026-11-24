@@ -495,3 +495,13 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-11-20T02:27:05,safe,SNAPSHOT,,95023.82,,,95023.82,True
 2026-11-21T02:37:04,safe,CLOSE_PARK,SPY,,,,93449.07,False
 2026-11-21T02:37:04,safe,SNAPSHOT,,93449.07,,,93449.07,False
+2026-11-24T05:23:03,safe,EXIT,ABBV,60.6,sma5_exit (+0.6%),,95750.99,False
+2026-11-24T05:23:03,safe,EXIT,ABT,-538.7,max_hold_days (-5.5%),,95750.99,False
+2026-11-24T05:23:03,safe,EXIT,AMGN,150.4,sma5_exit (+1.6%),,95750.99,False
+2026-11-24T05:23:03,safe,EXIT,DE,180.65,sma5_exit (+1.9%),,95750.99,False
+2026-11-24T05:23:03,safe,EXIT,HD,84.51,sma5_exit (+0.9%),,95750.99,False
+2026-11-24T05:23:03,safe,EXIT,MMM,192.62,sma5_exit (+2.0%),,95750.99,False
+2026-11-24T05:23:03,safe,EXIT,SNPS,-306.46,sma5_exit (-3.2%),,95750.99,False
+2026-11-24T05:23:03,safe,ENTRY,EOG,9575.1,rsi2_dip,1.6,95750.99,False
+2026-11-24T05:23:03,safe,ADD_PARK,SHY,57450.59,,,95750.99,False
+2026-11-24T05:23:03,safe,SNAPSHOT,,95750.99,,,95750.99,False
