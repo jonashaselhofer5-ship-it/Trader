@@ -510,3 +510,6 @@ timestamp,strategy,action,symbol,amount,reason,rsi2,equity,in_market
 2026-11-25T04:23:00,safe,EXIT,PFE,196.44,sma5_exit (+2.1%),,96168.07,False
 2026-11-25T04:23:00,safe,ADD_PARK,SHY,29084.01,,,96168.07,False
 2026-11-25T04:23:00,safe,SNAPSHOT,,96168.07,,,96168.07,False
+2026-11-26T03:40:29,safe,EXIT,EOG,131.56,sma5_exit (+1.4%),,95992.74,False
+2026-11-26T03:40:29,safe,ADD_PARK,SHY,9450.64,,,95992.74,False
+2026-11-26T03:40:29,safe,SNAPSHOT,,95992.74,,,95992.74,False
